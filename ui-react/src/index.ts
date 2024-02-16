@@ -1,2 +1,2 @@
 export * from './library';
-export * from '@tonconnect/ui';
+export * from './ui-core/src';

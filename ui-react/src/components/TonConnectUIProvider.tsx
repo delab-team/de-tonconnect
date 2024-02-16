@@ -5,8 +5,11 @@ import {
     TonConnectUI,
     UIPreferences,
     WalletsListConfiguration
-} from '@tonconnect/ui';
-import type { ITonConnect } from '@tonconnect/ui';
+} from '../ui-core/src';
+// import type { ITonConnect } from '../ui-core/src';
+import {
+    ITonConnect
+} from '@tonconnect/sdk';
 import { isClientSide } from '../utils/web';
 
 export const TonConnectUIContext = createContext<TonConnectUI | null>(null);

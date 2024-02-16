@@ -1,4 +1,5 @@
-import { CHAIN, toUserFriendlyAddress } from '@tonconnect/ui';
+// import { CHAIN, toUserFriendlyAddress } from '@tonconnect/ui';
+import { CHAIN, toUserFriendlyAddress } from '@tonconnect/sdk';
 import { useTonWallet } from './useTonWallet';
 
 /**

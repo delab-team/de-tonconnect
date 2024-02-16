@@ -1,4 +1,4 @@
-import { WalletsModal, WalletsModalState } from '@tonconnect/ui';
+import { WalletsModal, WalletsModalState } from '../ui-core/src';
 import { useTonConnectUI } from './useTonConnectUI';
 import { useEffect, useState } from 'react';
 

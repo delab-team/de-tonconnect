@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { WalletInfoWithOpenMethod, Wallet, ConnectedWallet } from '@tonconnect/ui';
+import { WalletInfoWithOpenMethod, ConnectedWallet } from '../ui-core/src';
 import { useTonConnectUI } from './useTonConnectUI';
+import { Wallet } from '@tonconnect/sdk';
 
 /**
  * Use it to get user's current ton wallet. If wallet is not connected hook will return null.
